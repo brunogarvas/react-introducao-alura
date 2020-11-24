@@ -20,29 +20,6 @@ class App extends Component {
     };
   }
 
-  // criarNota(titulo, texto, categoria) {
-  //   const novaNova = { titulo, texto, categoria };
-  //   const novoArrayNotas = [...this.state.notas, novaNova];
-  //   const novoEstado = {
-  //     notas: novoArrayNotas
-  //   };
-  //   this.setState(novoEstado);
-  //   console.log(`uma nova nota foi criada com o titulo: ${titulo} e o texto ${texto}`);
-  // }
-
-  // adicionarCategoria(descricao) {
-  //   const novoArrayCategorias = [...this.state.categorias, descricao];
-  //   const novoEstado = { ...this.state, categorias: novoArrayCategorias };
-  //   this.setState(novoEstado);
-  //   console.log(`uma nova categoria foi criada com a descricao: ${descricao}`);
-  // }
-
-  // deletarNota(index) {
-  //   let arrayNotas = this.state.notas;
-  //   arrayNotas.splice(index, 1);
-  //   this.setState({ notas: arrayNotas });
-  // }
-
   render() {
     return (
       <section className="conteudo">
